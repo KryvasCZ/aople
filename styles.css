@@ -1,0 +1,111 @@
+.nav2 {
+    border-bottom: 1.5px solid rgb(222, 219, 219);
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+}
+.arrow{
+    display: none;
+}
+.nav2 button{
+    border-color: transparent;
+    background-color: transparent;
+    color: #000;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 100;
+    src: local('☺'), url("iforgot.apple.com/sf-pro-display_regular.woff2") format("woff2"), url("iforgot.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.woff") format("woff"), url("iforgot.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.ttf") format("truetype");
+    /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+.AppleID {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: .011em;
+    line-height: 1.14286;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.nav-bar-full-size {
+    display: flex;
+    width: 53%;
+    justify-content: space-between;
+    height: 4.6vh;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+.nav-bar-full-size button{
+    border: none;
+    background: transparent;
+    color:rgb(174, 173, 173);
+    font-size: 13px;            
+}
+
+.nav-bg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(62, 62, 62);
+}
+
+body {
+    margin: 0;
+}
+
+.container2 {
+   display: flex;
+   width: 100vw;
+   justify-content: center;
+}
+.logo{
+    padding: 0;
+}
+.search{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.navvec{
+    display: flex;
+    line-height: 22px;
+    white-space: nowrap;
+    font-size: 12px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    webkit-font-smoothing: antialiased;
+    opacity: 0.85;
+    color: #000;
+}
+@media only screen and (max-width: 1000px) {
+    .nav-bar-full-size {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        height: 6vh;
+        padding-top: 6px;
+        padding-bottom:5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav2{
+        width: 100%;
+        padding-left: 15px; 
+    }
+    .icon {
+        width: 25px;
+    }
+    .navitem{ display: none;
+    }
+    .nav2 button{
+        display: none;
+    }
+}
