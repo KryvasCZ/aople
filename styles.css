@@ -39,6 +39,13 @@
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     overflow: hidden;
 }
+.AppleIDl:focus::placeholder{
+    margin-top: -12px;
+    transition: font-size 0.2s;
+    font-size: 13px;
+    display: block;
+    visibility: visible;
+}
 
 @font-face {
     font-family: 'SF Pro Display';
