@@ -13,6 +13,32 @@
     color: #000;
     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+.icon{
+    width: 20px;
+    color: rgb(255, 255, 255);
+}
+.searchic{
+    opacity: 0.7;
+}
+.logovec{
+    opacity: 0.85;
+    padding-bottom: 2px;
+}
+.AppleIDl::placeholder{
+    position: absolute;
+    pointer-events: none;
+    transition-timing-function: ease-in;
+    transition-duration: 0.125s;
+    top: 1.05882rem;
+    white-space: nowrap;
+    left: 1rem;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+}
 
 @font-face {
     font-family: 'SF Pro Display';
@@ -85,6 +111,177 @@ body {
     opacity: 0.85;
     color: #000;
 }
+.contak{
+    width: 53%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+}
+.col2{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    border-left: 1.5px solid rgb(222, 219, 219);
+}
+.prihlas{
+    font-size: 32px;
+}
+.nig{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-top: 40px;
+    opacity: 0.89;
+}
+.AppleIDl{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    width: 22vw;
+    height: 3.29412rem;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    margin-bottom: 0.82353rem;
+    padding: 1.05882rem 0.94118rem 0;
+    text-align: left;
+    appearance: none;
+    border-color:rgba(105, 105, 105, 0.4)
+}
+.AppleIDl:focus{
+    box-shadow: 0 0 0 4px rgba(0,125,250,0.6);
+    outline: none;
+}
+.bottomtext{
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -.016em;
+        font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        color: #6e6e73;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+.profiles{
+    padding-left: 20px;
+}
+.dlouhejtext{
+    color: #6e6e73;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.pokračovat{
+    min-width: 94px;
+    border-radius: 8px;
+    border-color: #0071e3;;
+    margin-left: 0;
+    background: #0071e3;
+    color: #fff;
+    opacity: .32;
+    width: 6.7vw;
+    height: 3.6vh;
+    box-shadow: none;
+    border: none;
+}
+.captcha{
+    display: flex;
+    gap: 20px;
+}
+.footer{
+    position: absolute;
+    top: 90vh;
+    width: 100%;
+    background-color:   #f5f5f7;;
+    display: flex;
+    
+    justify-content: center;
+}
+.negertext{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    border: none;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #6e6e73;
+}
+.negr2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.negr{
+margin: 0 auto;
+}
+.negr3{
+    display: flex;
+    column-gap: 10px;
+}
+.textik{
+    border-right: 1.5px solid  rgb(222, 219, 219);
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #6e6e73;
+}
+.textikkk{
+    border-left: 1.5px solid  rgb(222, 219, 219);
+    padding-left: 10px;
+    border-right: 1.5px solid  rgb(222, 219, 219);
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #6e6e73;
+}
+.textikk{
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #6e6e73;
+}
+.textikz{
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #6e6e73;
+}
+.navigaceidk{
+    display: flex;
+    gap: 30px;
+}
+.search2{
+    padding: 0;
+    display: none;
+    align-items: center;
+    color: white;
+}
 @media only screen and (max-width: 1000px) {
     .nav-bar-full-size {
         display: flex;
@@ -94,7 +291,8 @@ body {
         padding-top: 6px;
         padding-bottom:5px;
         padding-left: 15px;
-        padding-right: 15px;
+        
+        
     }
     .nav2{
         width: 100%;
@@ -107,5 +305,59 @@ body {
     }
     .nav2 button{
         display: none;
+    }
+    .col2{
+        display: none;
+    }
+    .contak{
+        width: 90%;
+        padding-top: 20px;
+        display: block;
+    }
+    .captcha{
+        flex-direction: column;
+    }
+    .searchic{
+        width: 35px;
+    }
+    .search2{
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .navigaceidk{
+        gap: 12px;
+    }
+    .prihlas{
+        font-size: 25px;
+    }
+    .nig{
+        padding-top: 20px;
+    }
+    .AppleIDl{
+        width: 100%;
+    }
+    .negr3{
+        flex-wrap: wrap;
+        
+    }
+    .textik{
+        margin: 0;
+    }
+    .textikk{
+        margin: 0;
+    }
+    .textikkk{
+        margin: 0;
+    }
+    .textikz{
+        margin: 0;
+    }
+    .negr{
+        padding: 20px;
+    }
+    .logovec{
+        width: 20px;
     }
 }
