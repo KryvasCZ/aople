@@ -136,6 +136,7 @@ body {
     gap: 20px;
     padding-top: 30px;
     border-left: 1.5px solid rgb(222, 219, 219);
+    width: 20vw;
 }
 .prihlas{
     font-size: 32px;
@@ -180,6 +181,7 @@ body {
         color: #6e6e73;
         padding-top: 20px;
         padding-bottom: 20px;
+        visibility: hidden;
 }
 .profiles{
     padding-left: 20px;
